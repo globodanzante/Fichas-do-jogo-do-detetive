@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SHERLOCK</title>
+</head>
+
+<body>
+    <!--    ficha de jogo -->
+    <section class="ficha">
+        <img src="img/logo.png" alt="Logo" class="logo">
+        <div class="tabla">
+            <table>
+                <tr>
+                    <th colspan=4" class="title">PERSONAGENS</th>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <!-- Nodal para mostrar personagem  -->
+                        <div class="boton-modal">
+                            <label for="btn-modal">
+                                Baba Nancy
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal">
+                        <div class="container-modal">
+                            <div class="content-modal">
+                                <div class="img-modal">
+                                    <img src="img/personajes/baba nancy.png" alt="Baba Nancy">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Baba Nancy</h3>
+                                    <p>Linda baba que tem 3 anos trabalhando com a Família</p>
+                                </div>
+                                <div class="btn-cerrar">
+                                    <label for="btn-modal">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                                <!-- fin do nodal -->
+                    </td>
+                    <td id="resultado"><input id="marca"></td>
+                    <td id="resultado1"><input id="marca1"></td>
+                    <td id="resultado2"><input id="marca2" id="marca2"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal1">
+                                Cozinheira Sonia
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal1">
+                        <div class="container-modal1">
+                            <div class="content-modal1">
+                                <div class="img-modal1">
+                                    <img src="img/personajes/Cozinheira.png" alt="Cozinheira">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Cozinheira Sonia</h3>
+                                    <p>Experta Cozinheira que gosta só praparar pratos únicos</p>
+                                </div>
+                                <div class="btn-cerrar1">
+                                    <label for="btn-modal1">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado3"><input id="marca3"></td>
+                    <td id="resultado4"><input id="marca4"></td>
+                    <td id="resultado5"><input id="marca5"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal2">
+                                John King
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal2">
+                        <div class="container-modal2">
+                            <div class="content-modal2">
+                                <div class="img-modal2">
+                                    <img src="img/personajes/JohnKing.png" alt="John King">
+                                </div>
+                                <div class="personagem">
+                                    <h3>John King</h3>
+                                    <p>Primer neto da família, mas desheredado por causa de seu comportamento</p>
+                                </div>
+                                <div class="btn-cerrar2">
+                                    <label for="btn-modal2">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    </td>
+                    <td id="resultado6"><input class="marca6"></td>
+                    <td id="resultado7"><input class="marca7"></td>
+                    <td id="resultado8"><input class="marca8"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal3">
+                                Mordomo Pierre
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal3">
+                        <div class="container-modal3">
+                            <div class="content-modal3">
+                                <div class="img-modal3">
+                                    <img src="img/personajes/MordomoPierre.png" alt="Mordomo Pierre">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Mordomo Pierre</h3>
+                                    <p>Fiel mordomo que tem trabalhado com a família por gerações</p>
+                                </div>
+                                <div class="btn-cerrar3">
+                                    <label for="btn-modal3">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado9"><input id="marca9"></td>
+                    <td id="resultado10"><input id="marca10"></td>
+                    <td id="resultado11"><input id="marca11"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal4">
+                                Mr. King
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal4">
+                        <div class="container-modal4">
+                            <div class="content-modal4">
+                                <div class="img-modal4">
+                                    <img src="img/personajes/Mr King.png" alt="Mr. King">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Mr. King</h3>
+                                    <p>Primogênito da família, homem muito ambicioso</p>
+                                </div>
+                                <div class="btn-cerrar4">
+                                    <label for="btn-modal4">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado12"><input id="marca12"></td>
+                    <td id="resultado13"><input id="marca13"></td>
+                    <td id="resultado14"><input id="marca14"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal5">
+                                Ms. Queen
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal5">
+                        <div class="container-modal5">
+                            <div class="content-modal5">
+                                <div class="img-modal5">
+                                    <img src="img/personajes/MsQueem.png" alt="Ms. Queen">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Ms. Queen</h3>
+                                    <p>A filha mais gata, gosta de viajar e comprar coisas costosas</p>
+                                </div>
+                                <div class="btn-cerrar5">
+                                    <label for="btn-modal5">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado15"><input id="marca15"></td>
+                    <td id="resultado16"><input id="marca16"></td>
+                    <td id="resultado17"><input id="marca17"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal6">
+                                Rose Queen
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal6">
+                        <div class="container-modal6">
+                            <div class="content-modal6">
+                                <div class="img-modal6">
+                                    <img src="img/personajes/Rose Queem.png" alt="Rose Queen">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Rose Queen</h3>
+                                    <p>Neta da Familia, dedicada a viajar com seus amigos e ir a festas</p>
+                                </div>
+                                <div class="btn-cerrar6">
+                                    <label for="btn-modal6">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado18"><input class="marca18"></td>
+                    <td id="resultado19"><input class="marca19"></td>
+                    <td id="resultado20"><input class="marca20"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan=4" class="title">ARMAS</th>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal7">
+                                Bastão de Baseball
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal7">
+                        <div class="container-modal7">
+                            <div class="content-modal7">
+                                <div class="img-modal7">
+                                    <img src="img/Armas/Bate.png" alt="Bastão de Baseball">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Bastão de Baseball</h3>
+                                </div>
+                                <div class="btn-cerrar7">
+                                    <label for="btn-modal7">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado21"><input class="marca21"></td>
+                    <td id="resultado22"><input class="marca22"></td>
+                    <td id="resultado23"><input class="marca23"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal8">
+                                Chave Inglesa
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal8">
+                        <div class="container-modal8">
+                            <div class="content-modal8">
+                                <div class="img-modal8">
+                                    <img src="img/Armas/Chave Inglesa.png" alt="Chave Inglesa">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Chave Inglesa</h3>
+                                </div>
+                                <div class="btn-cerrar8">
+                                    <label for="btn-modal8">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado24"><input class="marca24"></td>
+                    <td id="resultado25"><input class="marca25"></td>
+                    <td id="resultado26"><input class="marca26"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal9">
+                                Faca
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal9">
+                        <div class="container-modal9">
+                            <div class="content-modal9">
+                                <div class="img-modal9">
+                                    <img src="img/Armas/Faca.png" alt="Faca">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Faca</h3>
+                                </div>
+                                <div class="btn-cerrar9">
+                                    <label for="btn-modal9">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado27"><input class="marca27"></td>
+                    <td id="resultado28"><input class="marca28"></td>
+                    <td id="resultado29"><input class="marca29"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal10">
+                                Pá
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal10">
+                        <div class="container-modal10">
+                            <div class="content-modal10">
+                                <div class="img-modal10">
+                                    <img src="img/Armas/Pala.png" alt="Pá">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Pá</h3>
+                                </div>
+                                <div class="btn-cerrar10">
+                                    <label for="btn-modal10">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado30"><input class="marca30"></td>
+                    <td id="resultado31"><input class="marca31"></td>
+                    <td id="resultado32"><input class="marca32"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal11">
+                                Revólver
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal11">
+                        <div class="container-modal11">
+                            <div class="content-modal11">
+                                <div class="img-modal11">
+                                    <img src="img/Armas/Revolver.png" alt="Revólver">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Revólver</h3>
+                                </div>
+                                <div class="btn-cerrar11">
+                                    <label for="btn-modal11">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado33"><input class="marca33"></td>
+                    <td id="resultado34"><input class="marca34"></td>
+                    <td id="resultado35"><input class="marca35"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal12">
+                                Soqueira
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal12">
+                        <div class="container-modal12">
+                            <div class="content-modal12">
+                                <div class="img-modal12">
+                                    <img src="img/Armas/Soqueira.png" alt="Soqueira">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Soqueira</h3>
+                                </div>
+                                <div class="btn-cerrar12">
+                                    <label for="btn-modal12">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado36"><input class="marca36"></td>
+                    <td id="resultado37"><input class="marca37"></td>
+                    <td id="resultado38"><input class="marca38"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal13">
+                                Veneno
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal13">
+                        <div class="container-modal13">
+                            <div class="content-modal13">
+                                <div class="img-modal13">
+                                    <img src="img/Armas/Veneno.png" alt="Veneno">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Veneno</h3>
+                                </div>
+                                <div class="btn-cerrar13">
+                                    <label for="btn-modal13">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado39"><input class="marca39"></td>
+                    <td id="resultado40"><input class="marca40"></td>
+                    <td id="resultado41"><input class="marca41"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th colspan=4" class="title">AMBIENTES</th>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal14">
+                                Banheiro
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal14">
+                        <div class="container-modal14">
+                            <div class="content-modal14">
+                                <div class="img-modal14">
+                                    <img src="img/Ambientes/banheiro.png" alt="Banheiro">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Banheiro</h3>
+                                </div>
+                                <div class="btn-cerrar14">
+                                    <label for="btn-modal14">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado42"><input class="marca42"></td>
+                    <td id="resultado43"><input class="marca43"></td>
+                    <td id="resultado44"><input class="marca44"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal14">
+                                Canil
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal15">
+                        <div class="container-modal15">
+                            <div class="content-modal15">
+                                <div class="img-modal15">
+                                    <img src="img/Ambientes/Canil.png" alt="Canil">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Canil</h3>
+                                </div>
+                                <div class="btn-cerrar15">
+                                    <label for="btn-modal15">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado45"><input class="marca45"></td>
+                    <td id="resultado46"><input class="marca46"></td>
+                    <td id="resultado47"><input class="marca47"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal16">
+                                Cozinha
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal16">
+                        <div class="container-modal16">
+                            <div class="content-modal16">
+                                <div class="img-modal16">
+                                    <img src="img/Ambientes/Cocina.png" alt="Cozinha">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Cozinha</h3>
+                                </div>
+                                <div class="btn-cerrar16">
+                                    <label for="btn-modal16">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado48"><input class="marca48"></td>
+                    <td id="resultado49"><input class="marca49"></td>
+                    <td id="resultado50"><input class="marca50"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal17">
+                                Escritório
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal17">
+                        <div class="container-modal17">
+                            <div class="content-modal17">
+                                <div class="img-modal17">
+                                    <img src="img/Ambientes/Escritorio.png" alt="Escritório">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Escritório</h3>
+                                </div>
+                                <div class="btn-cerrar17">
+                                    <label for="btn-modal17">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado51"><input class="marca51"></td>
+                    <td id="resultado52"><input class="marca52"></td>
+                    <td id="resultado53"><input class="marca53"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal18">
+                                Hall de Entrada
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal18">
+                        <div class="container-modal18">
+                            <div class="content-modal18">
+                                <div class="img-modal18">
+                                    <img src="img/Ambientes/Hall de Entrada.png" alt="Hall de Entrada">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Hall de Entrada</h3>
+                                </div>
+                                <div class="btn-cerrar18">
+                                    <label for="btn-modal18">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado54"><input class="marca54"></td>
+                    <td id="resultado55"><input class="marca55"></td>
+                    <td id="resultado56"><input class="marca56"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal19">
+                                Jardim
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal19">
+                        <div class="container-modal19">
+                            <div class="content-modal19">
+                                <div class="img-modal19">
+                                    <img src="img/Ambientes/Jardin.png" alt="Jardim">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Jardim</h3>
+                                </div>
+                                <div class="btn-cerrar19">
+                                    <label for="btn-modal19">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado57"><input class="marca57"></td>
+                    <td id="resultado58"><input class="marca58"></td>
+                    <td id="resultado59"><input class="marca59"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal20">
+                                Quarto
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal20">
+                        <div class="container-modal20">
+                            <div class="content-modal20">
+                                <div class="img-modal20">
+                                    <img src="img/Ambientes/Quarto.png" alt="Quarto">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Quarto</h3>
+                                </div>
+                                <div class="btn-cerrar20">
+                                    <label for="btn-modal20">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado60"><input class="marca60"></td>
+                    <td id="resultado61"><input class="marca61"></td>
+                    <td id="resultado62"><input class="marca62"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal21">
+                                Sala de Estar
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal21">
+                        <div class="container-modal21">
+                            <div class="content-modal21">
+                                <div class="img-modal21">
+                                    <img src="img/Ambientes/Sala de Estar.png" alt="Sala de Estar">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Sala de Estar</h3>
+                                </div>
+                                <div class="btn-cerrar21">
+                                    <label for="btn-modal21">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado63"><input class="marca63"></td>
+                    <td id="resultado64"><input class="marca64"></td>
+                    <td id="resultado65"><input class="marca65"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal22">
+                                Sala de Jantar
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal22">
+                        <div class="container-modal22">
+                            <div class="content-modal22">
+                                <div class="img-modal22">
+                                    <img src="img/Ambientes/Sala de Jantar.png" alt="Sala de Jantar">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Sala de Jantar</h3>
+                                </div>
+                                <div class="btn-cerrar22">
+                                    <label for="btn-modal22">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado66"><input class="marca66"></td>
+                    <td id="resultado67"><input class="marca67"></td>
+                    <td id="resultado68"><input class="marca68"></td>
+                </tr>
+                <tr>
+                    <td class="nome">
+                        <div class="boton-modal">
+                            <label for="btn-modal23">
+                                Sala de Jogo
+                            </label>
+                        </div>
+                        <input type="checkbox" id="btn-modal23">
+                        <div class="container-modal23">
+                            <div class="content-modal23">
+                                <div class="img-modal23">
+                                    <img src="img/Ambientes/Sala de Jogos.png" alt="Sala de Jogo">
+                                </div>
+                                <div class="personagem">
+                                    <h3>Sala de Jogo</h3>
+                                </div>
+                                <div class="btn-cerrar23">
+                                    <label for="btn-modal23">Ocultar</label>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td id="resultado69"><input id='marca69'></td>
+                    <td id="resultado70"><input id="marca70"></td>
+                    <td id="resultad71"><input id="marca71"></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>

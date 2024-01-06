@@ -1,0 +1,311 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13PX;
+    align-items: center;
+    display: block;
+    margin: 0px;
+    background-image: url(img/fondo.png);
+  background-size: 400px;
+   
+    
+}
+/* tamaño y forma a la ficha */
+.ficha{
+    background-color: black;
+    width: 300px;
+    height: 730px;
+    margin: 15px;
+    
+}
+.logo{
+    width: 250px;
+    margin: 0 25px;
+   
+}
+.title{
+    background-color: black;
+    color:#fff;
+    padding: 5px;
+
+}
+.tabla{
+    border-top: solid 1px #fff;
+    margin: 0 20px;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    margin: 0 20px;
+    font-weight: bold ;
+    text-align: center;
+  }
+  input {
+    width: 15px;
+    border: 0ch;
+    text-transform:uppercase;
+    text-align: center;
+  }
+  .nome {
+    width: 150px;
+    text-align: center;
+  }
+  /* modal para los jugadores */
+.boton-modal{
+    padding: 0px;
+}
+.boton-modal label{
+    color: #000000;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+ .boton-modal label:hover{
+    color: #bd5806;
+    font-size: 14px;
+
+ }
+ /* ::::fin da cards::::*/
+#btn-modal,
+#btn-modal1,
+#btn-modal2,
+#btn-modal3,
+#btn-modal4,
+#btn-modal5,
+#btn-modal6,
+#btn-modal7,
+#btn-modal8,
+#btn-modal9,
+#btn-modal10,
+#btn-modal11,
+#btn-modal12,
+#btn-modal13,
+#btn-modal14,
+#btn-modal15,
+#btn-modal16,
+#btn-modal17,
+#btn-modal18,
+#btn-modal19,
+#btn-modal20,
+#btn-modal21,
+#btn-modal22,
+#btn-modal23{
+display: none;
+}
+.container-modal,
+.container-modal1,
+.container-modal2,
+.container-modal3,
+.container-modal4,
+.container-modal5,
+.container-modal6,
+.container-modal7,
+.container-modal8,
+.container-modal9,
+.container-modal10,
+.container-modal11,
+.container-modal12,
+.container-modal13,
+.container-modal14,
+.container-modal15,
+.container-modal16,
+.container-modal17,
+.container-modal18,
+.container-modal19,
+.container-modal20,
+.container-modal21,
+.container-modal22,
+.container-modal23{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0; left: 0;
+    background-image: url(img/fondo.png) ;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+#btn-modal:checked ~ .container-modal,
+#btn-modal1:checked ~ .container-modal1,
+#btn-modal2:checked ~ .container-modal2,
+#btn-modal3:checked ~ .container-modal3,
+#btn-modal4:checked ~ .container-modal4,
+#btn-modal5:checked ~ .container-modal5,
+#btn-modal6:checked ~ .container-modal6,
+#btn-modal7:checked ~ .container-modal7,
+#btn-modal8:checked ~ .container-modal8,
+#btn-modal9:checked ~ .container-modal9,
+#btn-modal10:checked ~ .container-modal10,
+#btn-modal11:checked ~ .container-modal11,
+#btn-modal12:checked ~ .container-modal12,
+#btn-modal13:checked ~ .container-modal13,
+#btn-modal14:checked ~ .container-modal14,
+#btn-modal15:checked ~ .container-modal15,
+#btn-modal16:checked ~ .container-modal16,
+#btn-modal17:checked ~ .container-modal17,
+#btn-modal18:checked ~ .container-modal18,
+#btn-modal19:checked ~ .container-modal19,
+#btn-modal20:checked ~ .container-modal20,
+#btn-modal21:checked ~ .container-modal21,
+#btn-modal22:checked ~ .container-modal22,
+#btn-modal23:checked ~ .container-modal23{
+    display: flex;
+}
+.content-modal,
+.content-modal1,
+.content-modal2,
+.content-modal3,
+.content-modal4,
+.content-modal5,
+.content-modal6,
+.content-modal7,
+.content-modal8,
+.content-modal9,
+.content-modal10,
+.content-modal11,
+.content-modal12,
+.content-modal13,
+.content-modal14,
+.content-modal15,
+.content-modal16,
+.content-modal17,
+.content-modal18,
+.content-modal19,
+.content-modal20,
+.content-modal21,
+.content-modal22,
+.content-modal23{
+    width: 400px;
+    max-width: 800px;
+    padding: 20px;
+    background-color:rgba(0, 0, 0) ;
+    border-radius: 10px;
+}
+.img-modal img,
+.img-modal1 img,
+.img-modal2 img,
+.img-modal3 img,
+.img-modal4 img,
+.img-modal5 img,
+.img-modal6 img,
+.img-modal7 img,
+.img-modal8 img,
+.img-modal9 img,
+.img-modal10 img,
+.img-modal11 img,
+.img-modal12 img,
+.img-modal13 img,
+.img-modal14 img,
+.img-modal15 img,
+.img-modal16 img,
+.img-modal17 img,
+.img-modal18 img,
+.img-modal19 img,
+.img-modal20 img,
+.img-modal21 img,
+.img-modal22 img,
+.img-modal23 img{
+    width: 250px;
+}
+.personagem h3{
+    font-size: 32px;
+    color: #FEC734;
+}
+.personagem p{
+    font-size: 18px;
+    margin: 25px;
+    color: #fff;
+}
+.btn-cerrar,
+.btn-cerrar1,
+.btn-cerrar2,
+.btn-cerrar3,
+.btn-cerrar4,
+.btn-cerrar5,
+.btn-cerrar6,
+.btn-cerrar7,
+.btn-cerrar8,
+.btn-cerrar9,
+.btn-cerrar10,
+.btn-cerrar11,
+.btn-cerrar12,
+.btn-cerrar13,
+.btn-cerrar14,
+.btn-cerrar15,
+.btn-cerrar16,
+.btn-cerrar17,
+.btn-cerrar18,
+.btn-cerrar19,
+.btn-cerrar20,
+.btn-cerrar21,
+.btn-cerrar22,
+.btn-cerrar23{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-modal .btn-cerrar label,
+.container-modal1 .btn-cerrar1 label,
+.container-modal2 .btn-cerrar2 label,
+.container-modal3 .btn-cerrar3 label,
+.container-modal4 .btn-cerrar4 label,
+.container-modal5 .btn-cerrar5 label,
+.container-modal6 .btn-cerrar6 label,
+.container-modal7 .btn-cerrar7 label,
+.container-modal8 .btn-cerrar8 label,
+.container-modal9 .btn-cerrar9 label,
+.container-modal10 .btn-cerrar10 label,
+.container-modal11 .btn-cerrar11 label,
+.container-modal12 .btn-cerrar12 label,
+.container-modal13 .btn-cerrar13 label,
+.container-modal14 .btn-cerrar14 label,
+.container-modal15 .btn-cerrar15 label,
+.container-modal16 .btn-cerrar16 label,
+.container-modal17 .btn-cerrar17 label,
+.container-modal18 .btn-cerrar18 label,
+.container-modal19 .btn-cerrar19 label,
+.container-modal20 .btn-cerrar20 label,
+.container-modal21 .btn-cerrar21 label,
+.container-modal22 .btn-cerrar22 label,
+.container-modal23 .btn-cerrar23 label{
+    padding: 10px 10px;
+    background-color: #963514;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    width: 70px;
+}
+.container-modal .btn-cerrar label:hover,
+.container-modal1 .btn-cerrar1 label:hover,
+.container-modal2 .btn-cerrar2 label:hover,
+.container-modal3 .btn-cerrar3 label:hover,
+.container-modal4 .btn-cerrar4 label:hover,
+.container-modal5 .btn-cerrar5 label:hover,
+.container-modal6 .btn-cerrar6 label:hover,
+.container-modal7 .btn-cerrar7 label:hover,
+.container-modal8 .btn-cerrar8 label:hover,
+.container-modal9 .btn-cerrar9 label:hover,
+.container-modal10 .btn-cerrar10 label:hover,
+.container-modal11 .btn-cerrar11 label:hover,
+.container-modal12 .btn-cerrar12 label:hover,
+.container-modal13 .btn-cerrar13 label:hover,
+.container-modal14 .btn-cerrar14 label:hover,
+.container-modal15 .btn-cerrar15 label:hover,
+.container-modal16 .btn-cerrar16 label:hover,
+.container-modal17 .btn-cerrar17 label:hover,
+.container-modal18 .btn-cerrar18 label:hover,
+.container-modal19 .btn-cerrar19 label:hover,
+.container-modal20 .btn-cerrar20 label:hover,
+.container-modal21 .btn-cerrar21 label:hover,
+.container-modal22 .btn-cerrar22 label:hover,
+.container-modal23 .btn-cerrar23 label:hover{
+    background-color: rgb(114, 50, 7);
+}
+.cerrar-modal{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;left: 0;
+    z-index: -1;
+}
